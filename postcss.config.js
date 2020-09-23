@@ -1,9 +1,11 @@
 module.exports = {
   plugins: {
-    'postcss-pxtorem': {
-      rootValue: 37.5,
-      propList: ['*'],
-      selectorBlackList: []
+    'postcss-px-to-viewport': {
+      viewportWidth: 750,
+      unitPrecision: 3,
+      viewportUnit: 'vw',
+      selectorBlackList: ['.ignore'],
+      mediaQuery: false
     }
   }
 }
