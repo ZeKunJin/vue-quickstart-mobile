@@ -1,7 +1,4 @@
 import Vue from 'vue'
-import VueStorage from 'vue-ls'
-import VueCompositionAPI from '@vue/composition-api'
-import config from '@/config/defaultSettings'
+import Storage from '@/lib/Storage'
 
-Vue.use(VueCompositionAPI)
-Vue.use(VueStorage, config.storageOptions)
+Vue.prototype.$ls = new Storage()
