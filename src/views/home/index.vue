@@ -1,8 +1,7 @@
 <template>
-  <button
-    class="py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-green-500 hover:bg-green-700"
-  >
-    Click me
+  <button class="bg-rose-600">
+    <!-- <svg class="animate-spin h-5 w-5 mr-3" viewBox="0 0 24 24" /> -->
+    Processing
   </button>
 </template>
 
